@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <MantineProvider>
-        <body className={inter.className}>{children}</body>
+        {/* <body className={inter.className}>{children}</body> */}
+        <body>{children}</body>
       </MantineProvider>
     </html>
   );
